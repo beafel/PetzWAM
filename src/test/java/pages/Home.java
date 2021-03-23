@@ -22,12 +22,12 @@ public class Home extends Base {
 
 
     // 3 - Acoes dos Elementos
-
     public void search(String product) {
         txtInputSearch.click();              // clicar na caixa de pesquisa
         txtInputSearch.clear();              // limpar o conteudo da caixa de texto
         txtInputSearch.sendKeys(product);    // escrever na caixa de texto
     }
+    // a variavel 'product'=) vem da Feature --> steps --> @SearchWith --> metodo search
 
     public void searchWithMagnifierButton(String product){
         search(product);

@@ -9,7 +9,7 @@ public class Hooks extends Base{
     // Objeto local para comunicacao com objeto da Classe extendida
     private Base base;
 
-    //Construtor
+    //Construtor para a classe Base
     public Hooks(Base base) {
         super(base.driver);
         this.base = base;
