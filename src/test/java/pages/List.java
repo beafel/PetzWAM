@@ -27,7 +27,7 @@ public class List extends Base {
     }
 
     // Le a frase Resultado para "Produto" e manda para steps
-    public String readResultByProduct(){
+    public String readResultBy(){
         return lblResultBy.getText();
     }
 
